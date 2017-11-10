@@ -1,0 +1,104 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Failed or Cancelled Order Email\n"
+"POT-Creation-Date: 2017-11-10 14:10+0200\n"
+"PO-Revision-Date: 2017-11-10 14:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-failed-or-cancelled-order-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-email-customer-cancelled-order.php:29
+msgid "Cancelled order (customer)"
+msgstr "Cancelled order (customer)"
+
+#: includes/class-wc-email-customer-cancelled-order.php:30
+msgid ""
+"Cancelled order emails are sent to customer when orders have been marked "
+"cancelled (if they were previously processing or on-hold)."
+msgstr ""
+"Cancelled order emails are sent to customer when orders have been marked "
+"cancelled (if they were previously processing or on-hold)."
+
+#: includes/class-wc-email-customer-cancelled-order.php:76
+#, php-format
+msgid "%s email sent to the customer."
+msgstr "%s email sent to the customer."
+
+#: includes/class-wc-email-customer-cancelled-order.php:87
+msgid "Your {site_title} order from {order_date} has been cancelled"
+msgstr "Your {site_title} order from {order_date} has been cancelled"
+
+#: includes/class-wc-email-customer-cancelled-order.php:97
+msgid "Your order has been cancelled"
+msgstr "Your order has been cancelled"
+
+#: includes/class-wc-email-customer-cancelled-order.php:137
+msgid "Enable/Disable"
+msgstr "Enable/Disable"
+
+#: includes/class-wc-email-customer-cancelled-order.php:139
+msgid "Enable this email notification"
+msgstr "Enable this email notification"
+
+#: includes/class-wc-email-customer-cancelled-order.php:143
+msgid "Subject"
+msgstr "Subject"
+
+#. translators: %s: list of placeholders
+#: includes/class-wc-email-customer-cancelled-order.php:147
+#: includes/class-wc-email-customer-cancelled-order.php:156
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "Available placeholders: %s"
+
+#: includes/class-wc-email-customer-cancelled-order.php:152
+msgid "Email heading"
+msgstr "Email heading"
+
+#: includes/class-wc-email-customer-cancelled-order.php:161
+msgid "Email type"
+msgstr "Email type"
+
+#: includes/class-wc-email-customer-cancelled-order.php:163
+msgid "Choose which format of email to send."
+msgstr "Choose which format of email to send."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Failed or Cancelled Order Email"
+msgstr "WooCommerce Failed or Cancelled Order Email"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://github.com/svirmasalo/woocommerce-failed-or-cancelled-order-email.git"
+msgstr ""
+"https://github.com/svirmasalo/woocommerce-failed-or-cancelled-order-email.git"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin extends WooCommerce emails sent by WordPress / WooCommerce, when "
+"order gets cancelled or failed."
+msgstr ""
+"This plugin extends WooCommerce emails sent by WordPress / WooCommerce, when "
+"order gets cancelled or failed."
+
+#. Author of the plugin/theme
+msgid "Sampo Virmasalo"
+msgstr "Sampo Virmasalo"
+
+#. Author URI of the plugin/theme
+msgid "https://svirmasalo.fi"
+msgstr "https://svirmasalo.fi"

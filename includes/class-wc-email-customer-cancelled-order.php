@@ -12,7 +12,7 @@ if ( ! class_exists( 'WC_Email_Customer_Cancelled_Order', false ) ) :
  * An email sent to the customer when an order is cancelled.
  *
  * @class       WC_Email_Customer_Cancelled_Order
- * @version     0.5.0
+ * @version     0.5.1
  * @package     woocommerce-failed-or-cancelled-order-email/includes/
  * @author      Sampo Virmasalo
  * @extends     WC_Email
@@ -84,7 +84,7 @@ class WC_Email_Customer_Cancelled_Order extends WC_Email {
 	 * @return string
 	 */
 	public function get_default_subject() {
-		return __( 'Your {site_title} order from {order_date} is complete', 'wc-focoe' );
+		return __( 'Your {site_title} order from {order_date} has been cancelled', 'wc-focoe' );
 	}
 
 	/**
@@ -94,7 +94,7 @@ class WC_Email_Customer_Cancelled_Order extends WC_Email {
 	 * @return string
 	 */
 	public function get_default_heading() {
-		return __( 'Your order is complete', 'wc-focoe' );
+		return __( 'Your order has been cancelled', 'wc-focoe' );
 	}
 
 	/**

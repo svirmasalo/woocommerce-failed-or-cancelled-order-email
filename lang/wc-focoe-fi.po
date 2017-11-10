@@ -1,0 +1,105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Failed or Cancelled Order Email\n"
+"POT-Creation-Date: 2017-11-10 14:19+0200\n"
+"PO-Revision-Date: 2017-11-10 14:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-failed-or-cancelled-order-email.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-email-customer-cancelled-order.php:29
+msgid "Cancelled order (customer)"
+msgstr "Peruttu tilaus (asiakas)"
+
+#: includes/class-wc-email-customer-cancelled-order.php:30
+msgid ""
+"Cancelled order emails are sent to customer when orders have been marked "
+"cancelled (if they were previously processing or on-hold)."
+msgstr ""
+"Peruttu tilaus -sähköosti lähetetään asiakkaalle jos tilaus merkataan "
+"tilasta \"käsittelyssä\" tai \"pidossa\" tilaan perutuksi."
+
+#: includes/class-wc-email-customer-cancelled-order.php:76
+#, php-format
+msgid "%s email sent to the customer."
+msgstr "%s sähköposti lähetetään asiakkaalle."
+
+#: includes/class-wc-email-customer-cancelled-order.php:87
+msgid "Your {site_title} order from {order_date} has been cancelled"
+msgstr "Sinun {site_tite} tilauksesi päivämäärällä {order_date} on peruttu"
+
+#: includes/class-wc-email-customer-cancelled-order.php:97
+msgid "Your order has been cancelled"
+msgstr "Tilauksesi on peruttu"
+
+#: includes/class-wc-email-customer-cancelled-order.php:137
+msgid "Enable/Disable"
+msgstr "Ota-/Poista käytöstä"
+
+#: includes/class-wc-email-customer-cancelled-order.php:139
+msgid "Enable this email notification"
+msgstr "Ota käyttöön tämä sähköpostihuomautus"
+
+#: includes/class-wc-email-customer-cancelled-order.php:143
+msgid "Subject"
+msgstr "Aihe"
+
+#. translators: %s: list of placeholders
+#: includes/class-wc-email-customer-cancelled-order.php:147
+#: includes/class-wc-email-customer-cancelled-order.php:156
+#, php-format
+msgid "Available placeholders: %s"
+msgstr "Käytettävissä olevat paikanpitäjät: %s"
+
+#: includes/class-wc-email-customer-cancelled-order.php:152
+msgid "Email heading"
+msgstr "Sähköpostin otsikko"
+
+#: includes/class-wc-email-customer-cancelled-order.php:161
+msgid "Email type"
+msgstr "Sähköpostityyppi"
+
+#: includes/class-wc-email-customer-cancelled-order.php:163
+msgid "Choose which format of email to send."
+msgstr "Valitse, missä muodossa sähköpostiviestit lähetetään."
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Failed or Cancelled Order Email"
+msgstr "WooCommerce Failed or Cancelled Order Email"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://github.com/svirmasalo/woocommerce-failed-or-cancelled-order-email.git"
+msgstr ""
+"https://GitHub.com/svirmasalo/woocommerce-Failed-or-Cancelled-Order-email.git"
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin extends WooCommerce emails sent by WordPress / WooCommerce, when "
+"order gets cancelled or failed."
+msgstr ""
+"Tämä liitännäinen laajentaa WooCommercen sähköpostiominaisuuksia, lisäämällä "
+"automaattisesti peruutuksen tai epäonnistumisen yhteydessä lähetettävän "
+"sähköpostin asiakkaalle."
+
+#. Author of the plugin/theme
+msgid "Sampo Virmasalo"
+msgstr "Sampo Virmasalo"
+
+#. Author URI of the plugin/theme
+msgid "https://svirmasalo.fi"
+msgstr "https://svirmasalo.fi"
