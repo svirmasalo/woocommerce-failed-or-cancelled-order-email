@@ -1,7 +1,8 @@
 # woocommerce-failed-or-cancelled-order-email
 
 ## Description
-*Send "Order cancelled" or "Order failed" emails to customer from WooCommerce 3.X.X*
+**Send "Order cancelled" or "Order failed" emails to customer from WooCommerce 3.X.X**
+
 This plugin extends the email functions and actions of WooCommerce, by adding "Cancelled order" or "Order failed" -emails also to the customer. 
 
 ## Version information
